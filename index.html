@@ -1,66 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube Clone</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
-</head>
-<body>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <div class="logo">🎬 YouTube Clone</div>
-        <div class="search-bar">
-            <input type="text" id="search" placeholder="Search videos...">
-            <button onclick="searchVideos()">🔍</button>
-        </div>
+      <div class="logo">🎬 YouTube Clone</div>
+      <div class="search-bar">
+        <input type="text" id="search" placeholder="Search videos..." />
+        <button onclick="searchVideos()">🔍</button>
+      </div>
     </header>
-
-    <!-- Sidebar -->
-    <aside class="sidebar">
+    <section class="mainHome">
+      <!-- Sidebar -->
+      <aside class="sidebar">
         <nav>
-            <a href="#">🏠 Home</a>
-            <a href="#">🔥 Trending</a>
-            <a href="#">📺 Subscriptions</a>
-            <a href="#">📚 Library</a>
+          <a href="#">🏠 Home</a>
+          <a href="#">🔥 Trending</a>
+          <a href="#">📺 Subscriptions</a>
+          <a href="#">📚 Library</a>
         </nav>
-    </aside>
+      </aside>
 
-    <!-- Video Grid -->
-    <main class="video-grid">
+      <!-- Video Grid -->
+      <section class="video-grid">
         <div class="video-card">
-            <iframe src="https://www.youtube.com/embed/VTLCoHnyACE?si=cx-STRlr7TePaQEd" allowfullscreen></iframe>
-            <h3>Flowchart & Pseudocode + Installation | DSA Series by Shradha Ma'am</h3>
-            <p>Apna College | 2M views | 2 years ago</p>
+          <iframe
+            src="https://www.youtube.com/embed/VTLCoHnyACE?si=cx-STRlr7TePaQEd"
+            allowfullscreen
+          ></iframe>
+          <h3>
+            Flowchart & Pseudocode + Installation | DSA Series by Shradha Ma'am
+          </h3>
+          <p>Apna College | 2M views | 2 years ago</p>
         </div>
         <div class="video-card">
-            <iframe src="https://www.youtube.com/embed/ZSvd_sjD3yA?si=M6Z1DXNa_UExlTMN" allowfullscreen></iframe>
-            <h3>Samsung Galaxy S25 Ultra मराठी Unboxing आणि Review!!! 🔥मी स्वतः वापरणार ह्याला...</h3>
-            <p>Trakin Tech Marathi | 50M views |  6 month ago</p>
+          <iframe
+            src="https://www.youtube.com/embed/ZSvd_sjD3yA?si=M6Z1DXNa_UExlTMN"
+            allowfullscreen
+          ></iframe>
+          <h3>
+            Samsung Galaxy S25 Ultra मराठी Unboxing आणि Review!!! 🔥मी स्वतः
+            वापरणार ह्याला...
+          </h3>
+          <p>Trakin Tech Marathi | 50M views | 6 month ago</p>
         </div>
         <div class="video-card">
-            <iframe src="https://www.youtube.com/embed/WtwSOfgAwm4?si=-B7FmiqdrvBdKmMm" allowfullscreen></iframe>
-            <h3>Shark Tank India Season 4 | Streaming Now | Mon-Fri, 8PM | Exclusively on Sony LIV</h3>
-            <p>Sony LIV | 1M views |  3 Month ago</p>
+          <iframe
+            src="https://www.youtube.com/embed/WtwSOfgAwm4?si=-B7FmiqdrvBdKmMm"
+            allowfullscreen
+          ></iframe>
+          <h3>
+            Shark Tank India Season 4 | Streaming Now | Mon-Fri, 8PM |
+            Exclusively on Sony LIV
+          </h3>
+          <p>Sony LIV | 1M views | 3 Month ago</p>
         </div>
 
         <div class="video-card">
-            <iframe src="https://www.youtube.com/embed/77vRyWNqZjM?si=IaKqT303Jr51q3ag" allowfullscreen></iframe>
-            <h3>Chhaava | Official Trailer | Vicky K | Rashmika M | Akshaye K | Dinesh Vijan | Laxman U | 14th Feb</h3>
-            <p>Maddock Films | 100M views |  3 weeks ago</p>
+          <iframe
+            src="https://www.youtube.com/embed/77vRyWNqZjM?si=IaKqT303Jr51q3ag"
+            allowfullscreen
+          ></iframe>
+          <h3>
+            Chhaava | Official Trailer | Vicky K | Rashmika M | Akshaye K |
+            Dinesh Vijan | Laxman U | 14th Feb
+          </h3>
+          <p>Maddock Films | 100M views | 3 weeks ago</p>
         </div>
         <div class="video-card">
-            <iframe src="https://www.youtube.com/embed/WtwSOfgAwm4?si=-B7FmiqdrvBdKmMm" allowfullscreen></iframe>
-            <h3>Shark Tank India Season 4 | Streaming Now | Mon-Fri, 8PM | Exclusively on Sony LIV</h3>
-            <p>Sony LIV | 1M views |  3 Month ago</p>
+          <iframe
+            src="https://www.youtube.com/embed/WtwSOfgAwm4?si=-B7FmiqdrvBdKmMm"
+            allowfullscreen
+          ></iframe>
+          <h3>
+            Shark Tank India Season 4 | Streaming Now | Mon-Fri, 8PM |
+            Exclusively on Sony LIV
+          </h3>
+          <p>Sony LIV | 1M views | 3 Month ago</p>
         </div>
         <div class="video-card">
-            <iframe src="https://www.youtube.com/embed/WtwSOfgAwm4?si=-B7FmiqdrvBdKmMm" allowfullscreen></iframe>
-            <h3>Shark Tank India Season 4 | Streaming Now | Mon-Fri, 8PM | Exclusively on Sony LIV</h3>
-            <p>Sony LIV | 1M views |  3 Month ago</p>
+          <iframe
+            src="https://www.youtube.com/embed/WtwSOfgAwm4?si=-B7FmiqdrvBdKmMm"
+            allowfullscreen
+          ></iframe>
+          <h3>
+            Shark Tank India Season 4 | Streaming Now | Mon-Fri, 8PM |
+            Exclusively on Sony LIV
+          </h3>
+          <p>Sony LIV | 1M views | 3 Month ago</p>
         </div>
-        
-    </main>
-</body>
+      </section>
+    </section>
+  </body>
 </html>
